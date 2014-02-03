@@ -1,5 +1,5 @@
 ```ruby
-pod 'UIColor+PerceivedLuminance'
+pod 'UIImage+ImageWithColor'
 ```
 
 ```objc
