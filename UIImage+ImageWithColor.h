@@ -13,5 +13,6 @@
 @interface UIImage (WithColor)
 
 + (UIImage *)imageWithColor:(UIColor *)color;
++ (UIImage *)imageWithColor:(UIColor *)color ofSize:(CGSize)size;
 
 @end
