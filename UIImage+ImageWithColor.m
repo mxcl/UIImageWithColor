@@ -20,9 +20,8 @@
     return img;
 }
 
-+ (UIImage *)imageWithColor:(UIColor *)color
-               cornerRadius:(CGFloat)cornerRadius {
-    CGFloat minEdgeSize = cornerRadius * 2 + 1;;
++ (UIImage *)resizableImageWithColor:(UIColor *)color cornerRadius:(CGFloat)cornerRadius {
+    CGFloat minEdgeSize = cornerRadius * 2 + 1;
     CGRect rect = CGRectMake(0, 0, minEdgeSize, minEdgeSize);
     UIBezierPath *roundedRect = [UIBezierPath bezierPathWithRoundedRect:rect cornerRadius:cornerRadius];
     roundedRect.lineWidth = 0;
