@@ -20,7 +20,7 @@
 ###How To Use It
 
 ```objc
-#import "UIImage+ImageWithColor.h"
+@import UIImageWithColor;
 
 //…
 
